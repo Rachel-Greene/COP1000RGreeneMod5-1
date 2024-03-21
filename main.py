@@ -9,6 +9,7 @@ while a < c:
   b = b + c
 print(f"Loop A: {a, b, c}")
 
+
 ## loop B ##
 d = 4
 e = 6
@@ -18,6 +19,7 @@ while d > f:
   e = e-1
 print(f"Loop B: {d, e, f}")
 
+
 ## loop C ##
 g = 4
 h = 6
@@ -25,14 +27,14 @@ while g < h:
   g = g + 1
 print(f"Loop C: {g, h}")
 
+
 ## loop D ##
-print("Loop D: ")
+print("--- Loop D ---")
 j = 2
 k = 5
 n = 9
 while j < k:
-  m = 6
-  #j = j + 1 
+  m = 6 
   while m < n:
     print("Goodbye")
     m = m + 1
@@ -40,7 +42,16 @@ while j < k:
 
 
 ## loop E ##
-
+print("--- Loop E ---")
+j = 2
+k = 5
+m = 6
+n = 9
+while j < k:
+  while m < n:
+    print("Hello")
+    m = m + 1
+  j = j + 1
 
 
 ## loop F ##
