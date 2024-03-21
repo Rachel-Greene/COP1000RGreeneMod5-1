@@ -26,20 +26,17 @@ while g < h:
 print(f"Loop C: {g, h}")
 
 ## loop D ##
+print("Loop D: ")
 j = 2
 k = 5
 n = 9
-print("Loop D:")
 while j < k:
   m = 6
-  j = j + 1 
+  #j = j + 1 
   while m < n:
-    m = m + 1
     print("Goodbye")
-
-  
-  
-
+    m = m + 1
+  j = j + 1
 
 
 ## loop E ##
