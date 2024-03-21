@@ -1,5 +1,6 @@
 ## This code runs the python code of pesudocode assignment 5-1 ##
 
+
 ## loop A ##
 a = 1
 b = 2
@@ -65,5 +66,3 @@ while p < q:
     print("Adios")
     r = r + 1
   p = p + 1
-
-
